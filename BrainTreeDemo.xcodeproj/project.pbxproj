@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D36FE99015447E77D040B4F /* Pods_BrainTreeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14387E0F099DF82AD289E5C5 /* Pods_BrainTreeDemo.framework */; };
+		4215D112BB18F68829CCED6F /* Pods_BrainTreeDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7722ECD39CE8841FA499D /* Pods_BrainTreeDemoTests.framework */; };
+		B13A04446449CCC7506F39B9 /* Pods_BrainTreeDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B391B27442AB5147E999064B /* Pods_BrainTreeDemoUITests.framework */; };
 		BB0F63B720B44807003B8F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0F63B620B44807003B8F59 /* AppDelegate.swift */; };
 		BB0F63B920B44807003B8F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0F63B820B44807003B8F59 /* ViewController.swift */; };
 		BB0F63BC20B44807003B8F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0F63BA20B44807003B8F59 /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B22B018232B9CD7696A77AD /* Pods-BrainTreeDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreeDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreeDemoUITests/Pods-BrainTreeDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14387E0F099DF82AD289E5C5 /* Pods_BrainTreeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainTreeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC7722ECD39CE8841FA499D /* Pods_BrainTreeDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainTreeDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB1EC36853848725C4E9C05 /* Pods-BrainTreeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreeDemo/Pods-BrainTreeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2E00A4B1258B611BB6D4568A /* Pods-BrainTreeDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreeDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreeDemoUITests/Pods-BrainTreeDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46797798CE4EFD719DCC43A2 /* Pods-BrainTreeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreeDemo/Pods-BrainTreeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B391B27442AB5147E999064B /* Pods_BrainTreeDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainTreeDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0F63B320B44807003B8F59 /* BrainTreeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTreeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0F63B620B44807003B8F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB0F63B820B44807003B8F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		BB0F63D220B44809003B8F59 /* BrainTreeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTreeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0F63D620B44809003B8F59 /* BrainTreeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTreeDemoUITests.swift; sourceTree = "<group>"; };
 		BB0F63D820B44809003B8F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFD30798D0B3D3993210FB6 /* Pods-BrainTreeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreeDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreeDemoTests/Pods-BrainTreeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3C1764ED31D719B85A5B2C0 /* Pods-BrainTreeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreeDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreeDemoTests/Pods-BrainTreeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D36FE99015447E77D040B4F /* Pods_BrainTreeDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4215D112BB18F68829CCED6F /* Pods_BrainTreeDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13A04446449CCC7506F39B9 /* Pods_BrainTreeDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B98FFF759710A3928A9722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14387E0F099DF82AD289E5C5 /* Pods_BrainTreeDemo.framework */,
+				1FC7722ECD39CE8841FA499D /* Pods_BrainTreeDemoTests.framework */,
+				B391B27442AB5147E999064B /* Pods_BrainTreeDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB0F63AA20B44807003B8F59 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				BB0F63CA20B44808003B8F59 /* BrainTreeDemoTests */,
 				BB0F63D520B44809003B8F59 /* BrainTreeDemoUITests */,
 				BB0F63B420B44807003B8F59 /* Products */,
+				C5235E4C030628F8BD7FABF8 /* Pods */,
+				17B98FFF759710A3928A9722 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = BrainTreeDemoUITests;
 			sourceTree = "<group>";
 		};
+		C5235E4C030628F8BD7FABF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46797798CE4EFD719DCC43A2 /* Pods-BrainTreeDemo.debug.xcconfig */,
+				2BB1EC36853848725C4E9C05 /* Pods-BrainTreeDemo.release.xcconfig */,
+				F3C1764ED31D719B85A5B2C0 /* Pods-BrainTreeDemoTests.debug.xcconfig */,
+				BDFD30798D0B3D3993210FB6 /* Pods-BrainTreeDemoTests.release.xcconfig */,
+				2E00A4B1258B611BB6D4568A /* Pods-BrainTreeDemoUITests.debug.xcconfig */,
+				0B22B018232B9CD7696A77AD /* Pods-BrainTreeDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0F63DB20B44809003B8F59 /* Build configuration list for PBXNativeTarget "BrainTreeDemo" */;
 			buildPhases = (
+				919626B5866649C2D630CC11 /* [CP] Check Pods Manifest.lock */,
 				BB0F63AF20B44807003B8F59 /* Sources */,
 				BB0F63B020B44807003B8F59 /* Frameworks */,
 				BB0F63B120B44807003B8F59 /* Resources */,
+				6825059A289F3AB1D6AEA189 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0F63DE20B44809003B8F59 /* Build configuration list for PBXNativeTarget "BrainTreeDemoTests" */;
 			buildPhases = (
+				70D88FD21F3E6B06583B4E0D /* [CP] Check Pods Manifest.lock */,
 				BB0F63C320B44808003B8F59 /* Sources */,
 				BB0F63C420B44808003B8F59 /* Frameworks */,
 				BB0F63C520B44808003B8F59 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0F63E120B44809003B8F59 /* Build configuration list for PBXNativeTarget "BrainTreeDemoUITests" */;
 			buildPhases = (
+				91488241197F13D4785DF297 /* [CP] Check Pods Manifest.lock */,
 				BB0F63CE20B44809003B8F59 /* Sources */,
 				BB0F63CF20B44809003B8F59 /* Frameworks */,
 				BB0F63D020B44809003B8F59 /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6825059A289F3AB1D6AEA189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrainTreeDemo/Pods-BrainTreeDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BraintreeDropIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrainTreeDemo/Pods-BrainTreeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D88FD21F3E6B06583B4E0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrainTreeDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91488241197F13D4785DF297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrainTreeDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919626B5866649C2D630CC11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrainTreeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB0F63AF20B44807003B8F59 /* Sources */ = {
@@ -428,15 +549,18 @@
 		};
 		BB0F63DC20B44809003B8F59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46797798CE4EFD719DCC43A2 /* Pods-BrainTreeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23EW23XY9U;
 				INFOPLIST_FILE = BrainTreeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechZ.BrainTreeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = TechZ.BrainTreeDemo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,15 +569,18 @@
 		};
 		BB0F63DD20B44809003B8F59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB1EC36853848725C4E9C05 /* Pods-BrainTreeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23EW23XY9U;
 				INFOPLIST_FILE = BrainTreeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TechZ.BrainTreeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = TechZ.BrainTreeDemo.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,6 +589,7 @@
 		};
 		BB0F63DF20B44809003B8F59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C1764ED31D719B85A5B2C0 /* Pods-BrainTreeDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +610,7 @@
 		};
 		BB0F63E020B44809003B8F59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFD30798D0B3D3993210FB6 /* Pods-BrainTreeDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +631,7 @@
 		};
 		BB0F63E220B44809003B8F59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E00A4B1258B611BB6D4568A /* Pods-BrainTreeDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +651,7 @@
 		};
 		BB0F63E320B44809003B8F59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B22B018232B9CD7696A77AD /* Pods-BrainTreeDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
